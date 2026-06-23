@@ -28,7 +28,9 @@ The production output will be generated inside `dist/`.
 
 ## Deploy To GitHub Pages
 
-This project is currently configured with `base: "/"` in [vite.config.js](/Users/tomerhershkovitz/Documents/CV/vite.config.js) because it is intended for a GitHub user site such as `tomerhershkovitz.github.io`.
+This project is configured for a GitHub user site such as `tomerhershkovitz.github.io`, so `base` is set to `/` in [vite.config.js](/Users/tomerhershkovitz/Documents/CV/vite.config.js).
+
+GitHub Pages deployment is handled by the workflow in [.github/workflows/deploy.yml](/Users/tomerhershkovitz/Documents/CV/.github/workflows/deploy.yml), which builds the Vite app and publishes `dist/`.
 
 If you later deploy it under a repository path like `username.github.io/repo-name`, update `base` in [vite.config.js](/Users/tomerhershkovitz/Documents/CV/vite.config.js) to `"/repo-name/"` before building.
 
