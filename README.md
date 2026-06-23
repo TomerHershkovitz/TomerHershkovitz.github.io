@@ -7,6 +7,7 @@ Static portfolio site built for GitHub Pages.
 - `index.html` - page structure and content
 - `styles.css` - visual design and responsive layout
 - `script.js` - small interaction layer for scroll reveals and footer year
+- `assets/Tomer_Hershkovitz_CV.pdf` - downloadable resume
 
 ## Publish With GitHub Pages
 
